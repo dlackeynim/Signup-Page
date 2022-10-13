@@ -1,0 +1,22 @@
+.nintendoimg {
+    width: 200px;
+    height: 200px;
+
+}
+
+body {
+    display: flex;
+}
+
+.leftPane {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://wallpapercave.com/wp/ZBRV22u.jpg);
+}
+
+.rightPane {
+    display: flex;
+    flex-direction: column;
+}
+
+
