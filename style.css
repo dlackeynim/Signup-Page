@@ -1,17 +1,17 @@
-.nintendoimg {
-    width: 200px;
-    height: 200px;
-
-}
-
 body {
     display: flex;
+    height: 100vh;
 }
 
 .leftPane {
     display: flex;
+    width: 50vw;
     flex-direction: column;
     background-image: url(https://wallpapercave.com/wp/ZBRV22u.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
 }
 
 .rightPane {
@@ -19,4 +19,50 @@ body {
     flex-direction: column;
 }
 
+.description {
+    height: 30vh;
+    padding: 30px;
+    background-color: #39A0ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description > p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.footer2 {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #36F1CD;  
+}
+
+.formContainer{
+    height: 40vh;  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+div > label + input {
+    display: flex;
+}
+div > label {
+    display: block;
+    text-align: center;
+}
+
+div > input {
+    box-shadow: 0 0 1px 0px grey;
+    border-radius: 5px;
+    
+}
