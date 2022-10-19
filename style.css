@@ -74,6 +74,17 @@ div > input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #36F1CD;  
+}
+
+.footer2 > button {
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    color: black;
+}
+a{
+    color: light purple;
 }

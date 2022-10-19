@@ -18,7 +18,7 @@
                 <p>Sign up now to get notices on all Nintendo product discounts <em>before</em> they are announced!</p>
             </div>
             <div class="formContainer">
-                <form>
+                <form onsubmit="return checkPassword()">
                     <div>
                         <label for="first_name">First Name</label>
                         <input type="text" name="first_name" id="first_name" placeholder="John">
@@ -43,12 +43,15 @@
                         <label for="confirm_password">Confirm Password</label>
                         <input type="password" name="confirm_password" id="confirm_password">
                     </div>
+                    <div></div>
+                    <div class= "matchStatus"></div>
                 </form>
             </div>
             <div class="footer2">
-                <p><em>Already have an account? Log in</em></p>
                 <button>Create Account</button>
+                <p><em>Already have an account? <a href="''" style="text-decoration:none">Log in</a></em></p>
             </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
